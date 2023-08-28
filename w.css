@@ -1,0 +1,158 @@
+
+.home
+{
+    background-image: url(img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height:90vh ;
+    width: 100%;
+        /* background-size: cover;
+        background-repeat: no-repeat; */
+}
+.bg
+{
+    background-color: rgba(78, 20, 20, 0.696);
+    height:90vh ;
+    width: 100%;
+}
+.pos
+{
+    position: absolute;
+    top: 40%;
+    right: 45%;
+}
+
+.navv
+{
+    width: 0px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style:none ;
+    z-index: 9;
+    position: fixed;
+    /* opacity: 0; */
+}
+.ms-10
+{
+    margin-left: 20rem;
+    display: none;
+    margin-right: 2rem;
+}
+.btnn
+{
+    background-color: transparent;
+    height: 50px;
+    margin-top: 12em;  
+    text-decoration: none;  
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    
+}
+.fs-11
+{
+    font-size: 4rem !important;
+    text-decoration: none;
+    color: white;
+    display: none;
+    margin-left: 1.5rem;
+}
+.fs-11:hover
+{
+    color: rgb(98, 29, 29);
+}
+.bg1
+{
+    background-image: url(img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.pos2
+{
+    position: absolute;
+    background-color: rgba(134, 5, 5, 0.671);
+    height: 100%;   
+    width: 100%;
+    z-index: 1;
+}
+.bg-dark-subtle
+{
+    display: none;
+}
+.bg2
+{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.inBg
+{
+    width: 250px;
+    height: 150px;
+    border: white solid 2px;
+    z-index: 2;
+}
+
+/* #btnEnd
+{
+    color: rgb(255, 0, 0) !important;
+} */
+#btnEnd:hover
+{
+    background-color: black !important;
+}
+.fa-linkedin
+{
+    padding: 10px;
+    border:rgb(158, 158, 158) 1px solid ;
+    
+}
+.fa-linkedin:hover
+{
+   background-color: brown;
+   color: white !important;
+}
+.ms-center
+{
+    margin-left: 50%;
+    
+}
+.sec
+{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+.min
+{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+.hour
+{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+.day
+{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
